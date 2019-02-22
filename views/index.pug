@@ -6,8 +6,34 @@ html
 		link(rel='stylesheet' type='text/css' href='/styles/main.css')
 
 	body
-		h2= title
-		p= message
+		.nav 
+			h2= title
+			p= message
 		
-		each person in people
-			li= person
+		.body
+			.inner-content
+				.space 
+					p this is some paragraphs
+					each person in people
+						li= person
+
+		.center
+			h2 Monsters
+
+		.body
+			.inner-content
+				.space 
+					p 
+						this is some paragraphs
+				.space 
+					p
+						this is a para and this is lourem ipsum
+					p and this is so cool
+				
+
+		.footer
+			p stff
+			p more stuff
+			p and more and more
+			.inner-footer
+		
