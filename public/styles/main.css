@@ -3,15 +3,22 @@
   padding: 0px;
   font-family: Verdana, Geneva, sans-serif; }
 
-.nav {
-  padding: 25px;
-  text-align: center;
-  height: 800px;
+.top {
+  height: 550px;
   background-image: url("../assets/img004.jpg");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.nav {
+  background-color: #506075;
+  padding: 25px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  text-align: center;
+  height: 50px; }
 
 .body {
   margin: auto;
